@@ -6,9 +6,17 @@
 		<Nullable>enable</Nullable>
 		<RootNamespace>Rennorb.Logging</RootNamespace>
 		<BaseOutputPath>../bin</BaseOutputPath>
+		<Version>1.1.0</Version>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/SaculRennorb/SimpleLogger</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/SaculRennorb/SimpleLogger</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Authors>Rennorb</Authors>
+		<Company />
 	</PropertyGroup>
 
 	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="/" />
 		<None Include="build/Rennorb.Logging.targets" Pack="true" PackagePath="build/" />
 	</ItemGroup>
 
